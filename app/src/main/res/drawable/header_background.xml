@@ -1,0 +1,16 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--
+    UPDATED: Instead of hardcoded colors, we now use attributes from the app's theme.
+    This allows the gradient to change automatically for light and dark modes.
+    -->
+    <gradient
+        android:angle="45"
+        android:startColor="?attr/colorPrimary"
+        android:endColor="?attr/colorPrimaryContainer"
+        android:type="linear" />
+
+    <corners android:radius="12dp"/>
+</shape>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Budget Menu Item -->
+    <item
+        android:id="@+id/menu_budget"
+        android:icon="@drawable/ic_budget"
+        android:title="Budget"
+        app:showAsAction="ifRoom" />
+
+    <!-- Analytics Menu Item -->
+    <item
+        android:id="@+id/menu_analytics"
+        android:icon="@drawable/ic_analytics"
+        android:title="Analytics"
+        app:showAsAction="ifRoom" />
+
+    <!-- Profile Menu Item -->
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <!-- Logout Menu Item -->
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
